@@ -1,0 +1,5 @@
+INDEX VERSION 1.132+/home/pilum/Facultad/Paradigmas/Java/.metadata/.plugins/org.eclipse.jdt.core
+3560752185.index
+1865797976.index
+546755331.index
+2158945014.index
