@@ -17,4 +17,22 @@ public class Ejercicio01 {
 
 		return true;
 	}
+	
+	public static void mostrarMatriz(int [][]nueva) {
+		
+		for (int i = 0; i < nueva.length; i++) {
+
+			for (int j = 0; j < nueva[0].length; j++) {
+				if (i > 0 && i < nueva.length && j > 0 && j < nueva[0].length) {
+					System.out.print(nueva[i][j] + " ");
+
+				} else {
+					System.out.print(nueva[i][j] + " ");
+				}
+
+			}
+			System.out.println("");
+		}
+		
+	}
 }

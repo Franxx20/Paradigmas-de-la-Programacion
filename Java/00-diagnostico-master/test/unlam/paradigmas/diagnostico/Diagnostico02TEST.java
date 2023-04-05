@@ -6,6 +6,7 @@ import java.util.concurrent.TimeoutException;
 
 import org.junit.Test;
 
+@SuppressWarnings("unused")
 public class Diagnostico02TEST {
 
 	// necesario para que la funcion sea testeable
@@ -15,7 +16,8 @@ public class Diagnostico02TEST {
 		int matriz[][] = { { 2, 2, 1 }, { 2, 2, 6 }, { 7, 8, 4 } };
 
 		boolean resultado = Ejercicio02.resolver(matriz);
-		assertEquals("Errorrrr", resultado, esperado);
+		assertEquals("Errorrrr", esperado, resultado);
+
 
 	}
 

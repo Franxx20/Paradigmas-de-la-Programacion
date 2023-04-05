@@ -1,10 +1,12 @@
 applyBackground=false
 approved.defs.file.last.changed.time=1649720987000
-configurationInstallLocation=/usr/lib/eclipse/
+configurationInstallLocation=/app/eclipse/
+ct.upsell.display.after=1680904456063
 eclipse.preferences.version=1
 iconcolormode=primary
 includeThemingInOomph=false
-last.download.attempt.time=1680556893033
-lastConfiguration=1680556887345
-newinstall=true
+last.download.attempt.time=1680645255773
+lastConfiguration=1680644388665
+newinstall=false
+showWelcomeDialog=false
 workbench.theme=Dark Gray
