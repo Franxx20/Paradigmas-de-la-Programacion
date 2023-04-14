@@ -13,6 +13,9 @@ public class Ejercicio05TEST {
 //				{ 3, 8, 0, 0 }, { 4, 0, 0, 0 } };
 		int res[][] = { { 13 }, { 9, 14 }, { 5, 10, 15 }, { 1, 6, 11, 16 }, { 2, 7, 12 }, { 3, 8 }, { 4 } };
 
+		System.out.println("Matriz original");
+		Ejercicio05.mostrarMatriz(matriz);
+		System.out.println("¨Matriz original");
 		assertArrayEquals(res, Ejercicio05.resolver(matriz));
 	}
 
