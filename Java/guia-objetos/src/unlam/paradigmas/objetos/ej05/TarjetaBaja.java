@@ -7,8 +7,8 @@ public class TarjetaBaja {
 	private int viajesSubte = 0;
 
 	// completar
-	private static boolean mayorACero(double num) {
-		return num > 0;
+	private static boolean mayorOigual(double num) {
+		return num >= 0;
 	}
 
 	/**
@@ -16,7 +16,7 @@ public class TarjetaBaja {
 	 */
 	public TarjetaBaja(double saldoInicial) throws Exception {
 		// completar
-		if (mayorACero(saldoInicial)) {
+		if (mayorOigual(saldoInicial)) {
 			this.saldo = saldoInicial;
 		} else {
 
@@ -37,7 +37,7 @@ public class TarjetaBaja {
 	 */
 	public void cargar(double monto) throws Exception {
 
-		if (mayorACero(monto)) {
+		if (monto > 0) {
 			this.saldo += monto;
 		} else {
 			throw new Exception("Monto invalido");
@@ -50,7 +50,7 @@ public class TarjetaBaja {
 	 */
 	public void pagarViajeEnColectivo() throws Exception {
 		// completar
-		if (this.obtenerSaldo() > 39.59) {
+		if (this.obtenerSaldo() >= 39.59) {
 			this.saldo -= 39.59;
 			this.viajesBus++;
 		} else {
@@ -63,7 +63,7 @@ public class TarjetaBaja {
 	 */
 	public void pagarViajeEnSubte() throws Exception {
 		// completar
-		if (this.obtenerSaldo() > 34.50) {
+		if (this.obtenerSaldo() >= 34.50) {
 			this.saldo -= 34.50;
 			this.viajesSubte++;
 		} else {
