@@ -7,7 +7,6 @@ import java.io.PrintWriter;
 import java.util.Locale;
 import java.util.Scanner;
 
-
 public class Archivo {
 	private String nombre;
 
@@ -66,5 +65,4 @@ public class Archivo {
 			}
 		}
 	}
-
 }
