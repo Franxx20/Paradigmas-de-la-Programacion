@@ -34,7 +34,7 @@ public class Rango implements Comparable<Rango> {
 	}
 
 	static public Rango intervaloAbierto(double inferior, double superior) throws Exception {
-		return new Rango(inferior - Double.MIN_VALUE, superior - Double.MIN_VALUE, false, false);
+		return new Rango(inferior, superior, false, false);
 	}
 
 	static public Rango intervaloCerrado(double inferior, double superior) throws Exception {
@@ -44,16 +44,19 @@ public class Rango implements Comparable<Rango> {
 
 	static public Rango intervaloAbiertoCerrado(double inferior, double superior) throws Exception {
 
-		return new Rango(inferior - Double.MIN_VALUE, superior, false, true);
+		return new Rango(inferior , superior, false, true);
 	}
 
 	static public Rango intervaloCerradoAbierto(double inferior, double superior) throws Exception {
 
-		return new Rango(inferior, superior - Double.MIN_VALUE, true, false);
+		return new Rango(inferior, superior , true, false);
 	}
 
 	public boolean numeroEnRango(double numero) {
-		return numero >= this.getInferior() && numero <= this.getSuperior();
+		boolean dentroDelLimiteInferior = this.inferiorCerrado == true?numero>=this.getInferior():numero>this.getInferior();
+		boolean dentroDelLimiteSuperior = this.superiorCerrado == true?numero<=this.getSuperior():numero<this.getSuperior();
+
+		return dentroDelLimiteInferior && dentroDelLimiteSuperior;
 	}
 
 	private boolean EsCerrado() {
@@ -63,16 +66,38 @@ public class Rango implements Comparable<Rango> {
 	public boolean rangoEnRango(Rango rango) {
 		if (rango == null)
 			return false;
-		return rango.getInferior() > this.getInferior() && rango.getSuperior() < this.getSuperior();
+		//return rango.getInferior() >= this.getInferior() && rango.getSuperior() <= this.getSuperior();
+		   boolean dentroLimiteInferior=this.getInferior() <= rango.getInferior();
+	        
+	        if(this.inferiorCerrado == false && rango.inferiorCerrado == true)
+	            dentroLimiteInferior=this.getInferior() < rango.getInferior();
+	        
+	        
+	        boolean dentroLimiteSuperior=this.getSuperior() >= rango.getSuperior();
+	        if(this.superiorCerrado== false && rango.superiorCerrado == true)
+	            dentroLimiteSuperior=this.getSuperior() > rango.getSuperior();
+	        
+	        
+	        return dentroLimiteInferior && dentroLimiteSuperior;
 	}
 
 	public boolean seIntersectan(Rango rango) {
 		if (rango == null)
 			return false;
 
-		return (this.getInferior() <= rango.getInferior() && this.getSuperior() >= rango.getInferior())
-				|| (this.getInferior() >= rango.getInferior() && this.getInferior() <= rango.getSuperior());
+		boolean comparacion1 = this.getSuperior() >= rango.getInferior();
+	       if(this.superiorCerrado== false && rango.inferiorCerrado == true)
+	           comparacion1 = this.getSuperior() > rango.getInferior();
+	           
+	       boolean comparacion2 = rango.getSuperior() >= this.getInferior();
+	       if(this.inferiorCerrado == false&& rango.superiorCerrado == true)
+	           comparacion1 = rango.getSuperior() > this.getInferior();
+	           
+
+	       return comparacion1 && comparacion2;
 	}
+
+	
 
 	@Override
 	public int hashCode() {

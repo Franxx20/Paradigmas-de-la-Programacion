@@ -8,67 +8,74 @@ import edu.unlam.paradigmas.basicas.ej01.Rango;
 
 public class RangoTest {
 
-	@Test
-	public void testHashCode() throws Exception {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testGetInferiorAbierto() throws Exception {
-		Rango r = Rango.intervaloAbierto(1, 2);
-		assertEquals(1.0 - Double.MIN_VALUE, r.getInferior(), 0);
-
-	}
-	@Test
-	public void testGetInferiorCerrado() throws Exception {
-		Rango r = Rango.intervaloCerrado(1, 2);
-		assertEquals(1.0 , r.getInferior(), 0);
+	@Test(expected = Exception.class)
+	public void testExceptionDivCero() throws Exception {
+		@SuppressWarnings("unused")
+		Rango r = Rango.intervaloAbierto(1, 0);
 
 	}
 
-	@Test
-	public void testGetSuperior() {
-		fail("Not yet implemented");
+	@Test()
+	public void testNumeroEnRango() throws Exception {
+		Rango r = Rango.intervaloAbierto(1, 3);
+		assertTrue(r.numeroEnRango(2.99));
+	}
+
+	@Test()
+	public void testNumeroNoEnRango() throws Exception {
+		Rango r = Rango.intervaloAbierto(1, 3);
+		assertFalse(r.numeroEnRango(3));
 	}
 
 	@Test
-	public void testIntervaloAbierto() {
-		fail("Not yet implemented");
+	public void testRangoEnRangoSup() throws Exception {
+		Rango r1 = Rango.intervaloCerrado(1, 3);
+		Rango r2 = Rango.intervaloAbierto(1, 3);
+
+		assertTrue(r1.rangoEnRango(r2));
 	}
 
 	@Test
-	public void testIntervaloCerrado() {
-		fail("Not yet implemented");
+	public void testRangoNoEnRango() throws Exception {
+		Rango r1 = Rango.intervaloAbierto(1, 3);
+		Rango r2 = Rango.intervaloCerrado(1, 3);
+
+		assertFalse(r1.rangoEnRango(r2));
 	}
 
 	@Test
-	public void testIntervaloAbiertoCerrado() {
-		fail("Not yet implemented");
+	public void testSeIntersectan() throws Exception
+	/*
+	 * Sabiendo que para intersectar dos rangos A y B. el maximo de A debe ser mayor
+	 * al Minimo de B, y a su vez el máximo de B debe ser mayor al Minimo de A
+	 */ {
+		Rango r1 = Rango.intervaloAbierto(1, 3);
+		Rango r2 = Rango.intervaloCerrado(2, 4);
+
+		assertTrue(r2.seIntersectan(r1));
+
 	}
 
 	@Test
-	public void testIntervaloCerradoAbierto() {
-		fail("Not yet implemented");
+	public void testNoSeIntersectan() throws Exception
+	/*
+	 * Sabiendo que para intersectar dos rangos A y B. el maximo de A debe ser mayor
+	 * al Minimo de B, y a su vez el máximo de B debe ser mayor al Minimo de A
+	 */ {
+		Rango r1 = Rango.intervaloAbierto(1, 2);
+		Rango r2 = Rango.intervaloCerrado(3, 4);
+
+		assertFalse(r2.seIntersectan(r1));
+
 	}
 
 	@Test
-	public void testNumeroEnRango() {
-		fail("Not yet implemented");
-	}
+	public void testEqualsObject() throws Exception {
+		Rango r1 = Rango.intervaloCerrado(1, 2);
+		Rango r2 = Rango.intervaloCerrado(1, 2);
 
-	@Test
-	public void testRangoEnRango() {
-		fail("Not yet implemented");
-	}
+		assertTrue(r1.equals(r2));
 
-	@Test
-	public void testSeIntersectan() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	public void testEqualsObject() {
-		fail("Not yet implemented");
 	}
 
 	@Test
@@ -77,28 +84,39 @@ public class RangoTest {
 	}
 
 	@Test
-	public void testToString() {
-		fail("Not yet implemented");
+	public void testSumaRangos() throws Exception {
+		Rango r1 = Rango.intervaloCerrado(-1, 2);
+		Rango r2 = Rango.intervaloCerrado(1, 3);
+
+		Rango r3 = Rango.intervaloCerrado(-1, 3);
+
+		Rango r4 = r1.sumaRangos(r2);
+
+		assertEquals(r3, r4);
 	}
 
 	@Test
-	public void testRangoGrandote() {
-		fail("Not yet implemented");
+	public void testInterseccionRangos() throws Exception{
+		Rango r1 = Rango.intervaloAbierto(1, 3);
+		Rango r2 = Rango.intervaloCerrado(2, 4);
+		
+		Rango r3 = r1.interseccionRangos(r2);
+		
+		Rango r4 = Rango.intervaloCerradoAbierto(2, 3);
+		
+		assertTrue(r3.equals(r4));
 	}
 
 	@Test
-	public void testSumaRangos() {
-		fail("Not yet implemented");
-	}
+	public void testDesplazarRango() throws Exception{
 
-	@Test
-	public void testInterseccionRangos() {
-		fail("Not yet implemented");
-	}
+		Rango r1 = Rango.intervaloCerrado(1, 1);
+		Rango r2 = r1.desplazarRango(1);
+		Rango r3 = Rango.intervaloCerrado(2, 2);
 
-	@Test
-	public void testDesplazarRango() {
-		fail("Not yet implemented");
+		assertTrue(r3.equals(r2));
+		
+
 	}
 
 }
