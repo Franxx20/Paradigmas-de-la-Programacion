@@ -9,12 +9,13 @@ public class Venta implements Comparable<Venta> {
 	String nombreCliente;
 	double montoVenta;
 
-	public Venta(LocalDateTime fecha, int nroVenta, String nombreCliente, double montoVenta) {
+	public Venta(int nroVenta, String nombreCliente, double montoVenta,LocalDateTime fecha) {
 		this.fecha = fecha;
 		this.nroVenta = nroVenta;
 		this.nombreCliente = nombreCliente;
 		this.montoVenta = montoVenta;
 	}
+
 
 	public LocalDateTime getFecha() {
 		return fecha;

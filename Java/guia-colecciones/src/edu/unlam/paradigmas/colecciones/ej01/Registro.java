@@ -16,6 +16,7 @@ public class Registro {
 
 	public void agregarPaquete(Paquete paquete) {
 		this.listaPaquetes.add(paquete);
+
 	}
 
 	public Paquete buscarPaquete(int nroSeguimiento) {
@@ -28,14 +29,13 @@ public class Registro {
 	}
 
 	public HashSet<Paquete> buscarPorPeso(double peso) {
-		HashSet<Paquete> listaResultado = (HashSet<Paquete>) this.listaPaquetes.stream()
+		return (HashSet<Paquete>) this.listaPaquetes.stream()
 				.filter(paquete -> paquete.getPeso() > peso).collect(Collectors.toSet());
-		return listaResultado;
 	}
 
 	@Override
 	public String toString() {
-		return "Registro [listaPaquetes=" + listaPaquetes + "]";
+		return "bin.edu.unlam.paradigmas.colecciones.ej05.Registro [listaPaquetes=" + listaPaquetes + "]";
 	}
 
 }
