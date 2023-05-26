@@ -1,0 +1,27 @@
+
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+c
+3src/edu/unlam/paradigmas/excepciones/ej01/Main.java,8/a/8afe8aae55324e5551aa036320c1a255554e0467
+l
+<src/edu/unlam/paradigmas/excepciones/ej02/ExcepcionRaiz.java,4/1/41ee9c04f40d3ec181c989c6781884646fcea253
+c
+3src/edu/unlam/paradigmas/excepciones/ej02/Main.java,2/6/26d260181e39512a83bc837defedd99a96877efd
+u
+Esrc/edu/unlam/paradigmas/excepciones/ej03/RuntimeExceptionNumero.java,9/8/988ab2279df2271f7279d2afdd2e47a18a9fb038
+c
+3src/edu/unlam/paradigmas/excepciones/ej03/Main.java,8/d/8d8bb8abe7efb605c911eb2b526cab517f938a03
+e
+5src/edu/unlam/paradigmas/excepciones/ej04/Cuenta.java,5/4/54773f12d9875b7bfb689cb36cd1cbef96b95deb
+c
+3src/edu/unlam/paradigmas/excepciones/ej04/Main.java,b/6/b652b23fea2cc726e3bc2d9d2f6a909afdd928cd
+c
+3src/edu/unlam/paradigmas/excepciones/ej06/Main.java,c/6/c6b948b6e8f116fdd5eb2fccd7a6c2b543ed0835
+c
+3src/edu/unlam/paradigmas/excepciones/ej07/Main.java,8/3/830d30b76bda93d2883598102b48eca822d2ae9a
+f
+6src/edu/unlam/paradigmas/excepciones/ej06/Archivo.java,0/4/0448a922d6464881b9511e50c1d1cab59fb7ab15
+f
+6src/edu/unlam/paradigmas/excepciones/ej07/Archivo.java,0/e/0e4890d77274594076a18871d5b95eed7b3aec6e
+c
+3src/edu/unlam/paradigmas/excepciones/ej08/Main.java,d/3/d3b464b91de24d9e94b50bb72f1ab55332eb63a9

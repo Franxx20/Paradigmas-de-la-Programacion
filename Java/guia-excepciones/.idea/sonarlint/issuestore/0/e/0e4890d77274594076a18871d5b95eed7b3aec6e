@@ -1,0 +1,17 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8œµÉ…1
+W
+java:S1141"5Extract this nested try block into a separate method.(¾€ªáùÿÿÿÿ8œµÉ…1
+R
+java:S1141%"5Extract this nested try block into a separate method.(Á¶‡è8œµÉ…1
+W
+java:S1141)"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8÷ö¾É…1
+
+java:S4087"bRemove this "close" call; closing the resource is handled automatically by the try-with-resources.(šÄÆ×8œµÉ…1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Î“¼8œµÉ…1
+T	java:S106 "9Replace this use of System.out or System.err by a logger.(äëÒ08ŸœµÉ…1
+T	java:S106""9Replace this use of System.out or System.err by a logger.(Û¨Á/8ŸœµÉ…1
+U	java:S106'"9Replace this use of System.out or System.err by a logger.(®ƒ—Á8 œµÉ…1
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(œÿ‰8 œµÉ…1
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(şµ´úÿÿÿÿ8¡œµÉ…1
+Z	java:S1067"9Replace this use of System.out or System.err by a logger.(™Œâ”ıÿÿÿÿ8¡œµÉ…1

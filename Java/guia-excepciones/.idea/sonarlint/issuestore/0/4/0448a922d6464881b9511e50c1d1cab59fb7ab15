@@ -1,0 +1,25 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÍáêÈ…1
+W
+java:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ÏáêÈ…1
+W
+java:S11418"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8¿ íÈ…1
+W
+java:S1141>"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8º¿óÈ…1
+g
+java:S2259'"EA "NullPointerException" could be thrown; "scanner" is nullable here.(ƒµ¹ıÿÿÿÿ8ÚáêÈ…1
+i
+java:S2259"LA "NullPointerException" could be thrown; "scannerInterno" is nullable here.(šÄÆ×8ÚáêÈ…1
+j
+java:S20959"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÔŠ—€úÿÿÿÿ8µÌíÈ…1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Î“¼8ãáêÈ…1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ááêÈ…1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8âáêÈ…1
+T	java:S1063"9Replace this use of System.out or System.err by a logger.(äëÒ08ãáêÈ…1
+T	java:S1065"9Replace this use of System.out or System.err by a logger.(Û¨Á/8ÉÒìÈ…1
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(®ƒ—Á8€¦ğÈ…1
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(œÿ‰8Î¿óÈ…1
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(şµ´úÿÿÿÿ8Ï¿óÈ…1
+Z	java:S106L"9Replace this use of System.out or System.err by a logger.(™Œâ”ıÿÿÿÿ8”£ÿÈ…1
