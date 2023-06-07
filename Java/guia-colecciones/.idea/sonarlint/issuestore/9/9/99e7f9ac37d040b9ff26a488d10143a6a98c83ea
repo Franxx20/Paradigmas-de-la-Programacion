@@ -1,0 +1,7 @@
+
+`	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(ôŒ£×ıÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚Åü
+
+java:S1319	"iThe type of "ventas" should be an interface such as "SortedSet" rather than the implementation "TreeSet".(ì©ì
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ìÔÒåûÿÿÿÿ

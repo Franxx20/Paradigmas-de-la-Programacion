@@ -1,0 +1,5 @@
+
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(‚ŞÏ¥ıÿÿÿÿ8ãÁÿ¼‡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(æÒğ‡ùÿÿÿÿ8åÁÿ¼‡1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8åÁÿ¼‡1

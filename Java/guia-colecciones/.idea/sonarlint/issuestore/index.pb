@@ -1,13 +1,37 @@
 
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+t
+Dsrc/edu/unlam/paradigmas/colecciones/ej04/ColeccionLibrosUnicos.java,a/3/a395d3e1b8d605af367e70f9501f2315b2abaa36
+c
+3src/edu/unlam/paradigmas/colecciones/ej03/Main.java,0/b/0b511500d580ffe0dc9bbd1d3361b70b50b631d3
+r
+Bsrc/edu/unlam/paradigmas/colecciones/ej03/RecollectorPalabras.java,a/e/aed2f1aaca424ae93ad16a260f7ff439369dd3db
+c
+3src/edu/unlam/paradigmas/colecciones/ej02/Main.java,a/f/af9936a628740866a65834263c7af0b146c40255
+g
+7src/edu/unlam/paradigmas/colecciones/ej02/Registro.java,9/9/99e7f9ac37d040b9ff26a488d10143a6a98c83ea
+d
+4src/edu/unlam/paradigmas/colecciones/ej02/Venta.java,5/3/535ad9e1599c6e1bc188e3eca23f1677a71a0d80
+c
+3src/edu/unlam/paradigmas/colecciones/ej01/Main.java,f/2/f289b2edcfded0e9c8030a9986150b3ef2694864
+f
+6src/edu/unlam/paradigmas/colecciones/ej01/Paquete.java,4/f/4fe23b030f8f6fa1fcf7fb6177013b53bc2bdfd2
+g
+7src/edu/unlam/paradigmas/colecciones/ej05/Registro.java,e/d/ed244e6de6f939c8bccc8b53e5f4bf9d5ca06f24
+d
+4src/edu/unlam/paradigmas/colecciones/ej05/Venta.java,8/9/89d4cfa37d9904e5d79eb4036745cc3f9ac13d17
+c
+3src/edu/unlam/paradigmas/colecciones/ej05/Main.java,9/4/940ada293e102c5fcabe4f292009aedf632552be
+g
+7src/edu/unlam/paradigmas/colecciones/ej06/Registro.java,9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e
 c
 3src/edu/unlam/paradigmas/colecciones/ej06/Main.java,9/b/9b295a7381bcc094ac5d123572348e1006ba7944
 g
-7src/edu/unlam/paradigmas/colecciones/ej06/Registro.java,9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e
+7src/edu/unlam/paradigmas/colecciones/ej01/Registro.java,1/2/123947eeba65fd33e086a80599ada105f1051624
 d
 4src/edu/unlam/paradigmas/colecciones/ej07/Tarea.java,b/8/b8e5047fa446f2d7effebe25a6c3b06c7e7f115f
 l
 <src/edu/unlam/paradigmas/colecciones/ej07/Administrador.java,c/4/c497df7b4285920e5bf7a0a9522dc70638b58e1c
 c
 3src/edu/unlam/paradigmas/colecciones/ej07/Main.java,d/f/df293c3ee8f4682d9c7354090fe6b0e2ce46b2c9
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

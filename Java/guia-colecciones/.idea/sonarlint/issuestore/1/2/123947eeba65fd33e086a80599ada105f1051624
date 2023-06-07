@@ -1,0 +1,7 @@
+
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(“¡™Ñ
+…
+java:S1319	"jThe type of "listaPaquetes" should be an interface such as "Set" rather than the implementation "HashSet".(æ×ŞÍúÿÿÿÿ
+ˆ
+java:S1319"mThe return type of this method should be an interface such as "Set" rather than the implementation "HashSet".(Úï¥øÿÿÿÿ

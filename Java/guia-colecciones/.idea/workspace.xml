@@ -4,33 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c624819e-6814-42e6-9c5d-13d0164905e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+    <list default="true" id="a29166bd-8ae4-438f-9897-fed70aa341dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../archivosTierraMedia/src/archivo/Atraccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../archivosTierraMedia/src/archivo/LeerArchivoAtraccion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../archivosTierraMedia/src/archivo/TipoAtraccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase04/bin/ejercicio/Resolucion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../clase04/bin/ejercicio/Resolucion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../clase04/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../clase04/bin/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b295a7381bcc094ac5d123572348e1006ba7944" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8e5047fa446f2d7effebe25a6c3b06c7e7f115f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c497df7b4285920e5bf7a0a9522dc70638b58e1c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df293c3ee8f4682d9c7354090fe6b0e2ce46b2c9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b295a7381bcc094ac5d123572348e1006ba7944" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b8e5047fa446f2d7effebe25a6c3b06c7e7f115f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c497df7b4285920e5bf7a0a9522dc70638b58e1c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df293c3ee8f4682d9c7354090fe6b0e2ce46b2c9" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guia-herencia/bin/edu/unlam/paradigmas/herencia/ej01/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../guia-herencia/bin/edu/unlam/paradigmas/herencia/ej01/Cuenta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../guia-herencia/src/edu/unlam/paradigmas/herencia/ej01/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guia-herencia/src/edu/unlam/paradigmas/herencia/ej01/Cuenta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -38,10 +37,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2QDV2SXmfDBK8t0vN4z9VKZhUUS" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2QcNGbfBIRI65Pokjj1yczxOGVm" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,51 +47,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.edu.unlam.paradigmas.colecciones.ej07.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.unlam.paradigmas.colecciones.ej06.Main" />
-      <module name="guia-colecciones" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unlam.paradigmas.colecciones.ej06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="edu.unlam.paradigmas.colecciones.ej07.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.unlam.paradigmas.colecciones.ej07.Main" />
-      <module name="guia-colecciones" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.unlam.paradigmas.colecciones.ej07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.edu.unlam.paradigmas.colecciones.ej07.Main" />
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c624819e-6814-42e6-9c5d-13d0164905e8" name="Changes" comment="" />
-      <created>1684887936138</created>
+      <changelist id="a29166bd-8ae4-438f-9897-fed70aa341dd" name="Changes" comment="" />
+      <created>1685648817249</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684887936138</updated>
+      <updated>1685648817249</updated>
     </task>
     <servers />
   </component>
