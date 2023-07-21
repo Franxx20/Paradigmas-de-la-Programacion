@@ -4,10 +4,10 @@ import java.util.*;
 import java.util.stream.*;
 
 public class Registro {
-    private HashMap<String, ArrayList<Double>> alumnos;
+    private Map<String, ArrayList<Double>> alumnos;
 
     public Registro() {
-        this.alumnos = new HashMap<String, ArrayList<Double>>();
+        this.alumnos = new HashMap<>();
     }
 
     public void agregarAlumnos(String nombre, ArrayList<Double> notas) {
@@ -21,11 +21,11 @@ public class Registro {
     }
 
     static ArrayList<Double> acumularListasNotas(ArrayList<Double> notas1, ArrayList<Double> notas2) {
-        return (ArrayList<Double>) Stream.of(notas1, notas2).flatMap(x -> x.stream()).collect(Collectors.toList());
+        return (ArrayList<Double>) Stream.of(notas1, notas2).flatMap(x -> x.stream()).toList();
     }
 
     static ArrayList<String> acumularListasAlumnos(ArrayList<String> alumnos1, ArrayList<String> alumnos2) {
-        return (ArrayList<String>) Stream.of(alumnos1, alumnos2).flatMap(x -> x.stream()).collect(Collectors.toList());
+        return (ArrayList<String>) Stream.of(alumnos1, alumnos2).flatMap(x -> x.stream()).toList();
     }
 
 
@@ -34,11 +34,11 @@ public class Registro {
         return "Registro{" + "alumnos=" + alumnos + '}';
     }
 
-    public HashMap<Double, ArrayList<String>> alumnosSegunNotas() {
+    public Map<Double, ArrayList<String>> alumnosSegunNotas() {
 
         HashMap<Double, ArrayList<String>> mapaInvertido = new HashMap<>();
         for (Map.Entry<String, ArrayList<Double>> entry : this.alumnos.entrySet()) {
-            mapaInvertido.merge(entry.getValue().stream().mapToDouble(Double::doubleValue).average().orElseThrow(IllegalStateException::new), new ArrayList<String>(Arrays.asList(entry.getKey())), Registro::acumularListasAlumnos);
+            mapaInvertido.merge(entry.getValue().stream().mapToDouble(Double::doubleValue).average().orElseThrow(IllegalStateException::new), new ArrayList<>(Arrays.asList(entry.getKey())), Registro::acumularListasAlumnos);
         }
 
         return mapaInvertido;

@@ -1,0 +1,15 @@
+encapsulamiento: Su definicion puede ser vista desde 2 puntos.
+Especialización: delegar la tarea del conocimiento y las operaciónes sobre ese conocimiento al objeto ya que este sera el que mejor sabe como trabajar con los mismos.
+completitud: el objeto creado representa a la entidad objetivo y sus responsabilidades.
+mecanismo para reunir datos y métodos dentro de una estructura de datos ocultado la implementación del objeto. Garantiza la integridad de los datos.
+Establecimiento de limites.
+
+El encapsulamiento nos habla de límites: “esta responsabilidad es mía, la llevaré
+a cabo con estos datos”.
+El ocultamiento de información nos indica buenas prácticas de programación:
+“necesito de este otro objeto, pero no me importa cómo resuelva sus responsabili␂dades mientras lo haga por mí”.
+
+Interfaz PUblica: Conjunto de responsabilidades. Operaciones que el objeto nos permite realizar sobre si mismo.
+Ocultamiento de la información: No todo el conocimiento delegado a un objeto sera de libre acceso al exterior. Esto se realizara con un ocultamiento lógico.
+
+

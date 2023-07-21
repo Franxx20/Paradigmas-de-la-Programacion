@@ -1,0 +1,16 @@
+r1(a,b).
+r1(a,c).
+r2(b,d).
+r2(b,e).
+r2(c,f).
+r2(c,g).
+r2(c,h).
+r3(d,i).
+r3(d,j).
+r3(f,k).
+r3(g,l).
+r4(i,m).
+r4(i,n).
+r5(n,r).
+r(X):-r1(X,Y),writeln(Y),r2(Y,Z),writeln(Z),r3(Z,W),writeln(W),r4(W,U),writeln(U)
+,r5(U,T),writeln(T),fail.

@@ -5,26 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a29166bd-8ae4-438f-9897-fed70aa341dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../archivosTierraMedia/src/archivo/Atraccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../archivosTierraMedia/src/archivo/LeerArchivoAtraccion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../archivosTierraMedia/src/archivo/TipoAtraccion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase04/bin/ejercicio/Resolucion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../clase04/bin/ejercicio/Resolucion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clase04/bin/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../clase04/bin/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b295a7381bcc094ac5d123572348e1006ba7944" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/8/b8e5047fa446f2d7effebe25a6c3b06c7e7f115f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c497df7b4285920e5bf7a0a9522dc70638b58e1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df293c3ee8f4682d9c7354090fe6b0e2ce46b2c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Paradigmas.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/a/3/a33a5da56118b1427a8b8cb8924d869c5eb47dee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/f/1/f1cf1114b84979f33da21a55a5e07c86e86ccef8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/a/3/a33a5da56118b1427a8b8cb8924d869c5eb47dee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/f/1/f1cf1114b84979f33da21a55a5e07c86e86ccef8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/123947eeba65fd33e086a80599ada105f1051624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/7/974c1d1466ba3bf2369e568291b75a894ae7f35e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/b/9b295a7381bcc094ac5d123572348e1006ba7944" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/8/b8e5047fa446f2d7effebe25a6c3b06c7e7f115f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/4/c497df7b4285920e5bf7a0a9522dc70638b58e1c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/df293c3ee8f4682d9c7354090fe6b0e2ce46b2c9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/123947eeba65fd33e086a80599ada105f1051624" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guia-herencia/bin/edu/unlam/paradigmas/herencia/ej01/Cuenta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../guia-herencia/bin/edu/unlam/paradigmas/herencia/ej01/Cuenta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../guia-herencia/src/edu/unlam/paradigmas/herencia/ej01/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../guia-herencia/src/edu/unlam/paradigmas/herencia/ej01/Cuenta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/unlam/paradigmas/colecciones/ej06/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unlam/paradigmas/colecciones/ej06/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/unlam/paradigmas/colecciones/ej07/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unlam/paradigmas/colecciones/ej07/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +32,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="3aix16ak" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -47,6 +49,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pilum/Facultad/Paradigmas/Java/guia-herencia&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>

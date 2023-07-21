@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+/home/pilum/Facultad/Paradigmas/Java/TP-TIERRA_MEDIA/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3560752185.index
+209707749.index
+1395385645.index
+446048893.index
